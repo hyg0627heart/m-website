@@ -1,0 +1,29 @@
+<ul>
+
+  <!-- city: "北京"
+    companyFullName: "北京保罗莎科技有限公司"
+    companyId: 432748
+    companyName: "保罗莎"
+    createTime: "今天 16:32"
+    logger: {traceCapable: true, name: "com.lagou.entity.mobile.MobilePosition"}
+    positionId: 5247465
+    positionName: "销售经理 电力"
+    salary: "5k-7k" -->
+
+  <% for (let i=0;i<data.length;i++ ) { %>
+  <li data-id="<%= data[i].positionId %>">
+    <img src="https://www.lgstatic.com/<%= data[i].companyLogo %>" alt="">
+    <div>
+      <h2><%= data[i].companyName %> </h2>
+      <p>
+        <span>
+          <%= data[i].positionName %>[ <%= data[i].city %> ]
+        </span>
+        <span> <%= data[i].salary %></span>
+      </p>
+      <p><%= data[i].createTime %></p>
+    </div>
+  </li>
+  <%}%>
+
+</ul>

@@ -1,0 +1,54 @@
+需求
+需求分析
+工期评估：
+  技术调研 （1d），框架搭建(1D?)，各个模块开发(2d)，前后端联调(1d)  送测（bug修改），上线（灰度、正式上线）
+  风险控制的时间
+  
+框架搭建
+  前后端分离 gulp  zepto  es6  sass  artTempate better-scroll
+   
+   better-scroll: 
+   需要有一个唯一的子容器
+   scroll,滚动的时，实时触发，touchend:滚动结束时触发
+   sass:gulp-sass
+   es6-es8 转es5 : webpack-stream 中的 babel-loader
+
+  rmvc : 
+    router ：路由，基于 hashchange来实现
+    model：数据层
+    view ：数据展现层，html
+    controller : 将来自router的请求 和 view的数据整合一块，通过render方法展现出来
+
+  构建：
+    yarn add gulp-cli  -g
+    yarn add gulp -D 
+    支持热更新，gulp-webserver中的livereload 属性来配置
+    跨域的数据请求：通过 http-proxy-middleware 中间件，配置代理；
+    string-loader,可以把html转换成字符串
+
+  布局方案：
+    根节点用vw ，rem, 百分比
+
+
+
+面向对象开发：单一职责
+
+
+
+
+json-server用法：
+yarn add json-server -D
+json-server --watch ./mock/db.json -p 8090
+json-server ./mock/mock.js -r ./mock/router.json  -p 8099
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "position": [
+    {
+      "city": "成都",
+      "companyFullName": "壹玖壹玖酒类平台科技股份有限公司",
+      "companyId": 7334,
+      "companyLogo": "i/image2/M01/08/A4/CgotOVyZguGAGk9BAAARNSPCDqE556.png"
+    },
+    {
+      "city": "成都",
+      "companyFullName": "壹玖壹玖酒类平台科技股份有限公司",
+      "companyId": 7334,
+      "companyLogo": "i/image2/M01/08/A4/CgotOVyZguGAGk9BAAARNSPCDqE556.png"
+    }
+  ]
+}

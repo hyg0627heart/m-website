@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  background: red; }
+
+.content {
+  border-bottom: 1px solid #e8e8e8;
+  height: 45px; }

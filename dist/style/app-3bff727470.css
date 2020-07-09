@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.custom {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.1rem;
+  border-bottom: 1px solid #e8e8e8; }
+  .custom span {
+    flex: 1; }
+  .custom button {
+    color: #00b38a;
+    width: 0.80rem;
+    height: 0.30rem;
+    border-radius: 0.15rem; }
+
+#main-position {
+  height: 100%; }
+
+.reload {
+  text-align: center;
+  line-height: 35px; }
+  .reload img {
+    width: 0.20rem;
+    height: 0.20rem; }
+
+.positionlist h2 {
+  font-size: 0.16rem; }
+
+.positionlist ul li {
+  padding: 10px;
+  display: flex;
+  border-bottom: 1px solid #e8e8e8; }
+  .positionlist ul li div {
+    flex: 1; }
+  .positionlist ul li img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px; }
+  .positionlist ul li span:first-child {
+    width: 70%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .positionlist ul li span:nth-child(2) {
+    color: #00b38a;
+    font-size: 0.16rem;
+    float: right; }
+
+.loading {
+  height: 100vh;
+  justify-content: center;
+  align-items: center; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%; }
+
+html {
+  height: 100%;
+  font-size: 100px; }
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.14rem; }
+
+.header-global {
+  height: 45px;
+  background: #00b38a;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+  font-size: 0.16rem; }
+
+.main-global {
+  flex: 1;
+  overflow-y: auto; }
+
+.footer-global {
+  height: 45px;
+  background: #f6f6f6; }
+  .footer-global ul {
+    display: flex; }
+    .footer-global ul li {
+      flex: 1;
+      text-align: center;
+      list-style: none;
+      line-height: 45px;
+      font-size: 0.17rem; }
+    .footer-global ul li.active {
+      color: #00b38a;
+      background: #e7f3f0; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("./fonts/iconfont.woff") format("woff"), url("./fonts/iconfont.ttf") format("truetype"); }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
